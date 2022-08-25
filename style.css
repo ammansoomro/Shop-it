@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background: #000000;
+}
+
+h1 {
+    color: white;
+}
+
+.mytable {
+    border-collapse: collapse;
+}
+
+.mytable tbody td {
+    padding: 10px;
+    background: #021017;
+    color: white;
+    border-bottom: 1px solid rgba(214, 211, 211, 0.1);
+
+}
+
+.mytable tbody tr {
+    padding: 10px;
+    border-bottom: 1px solid rgba(214, 211, 211, 0.1);
+}
+
+.mytable tbody tr:hover {
+    background: #083247;
+    color: white;
+}
+
+.mytable thead td {
+    font-weight: bold;
+    background: #01090e;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.00001);
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.stickyHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 50;
+    background: none;
+}
+
+nav {
+    transition: 0.5s;
+}
+
+nav.sticky {
+    background: #2c3945;
+    padding: 10px;
+}
+
+.BtnDanger {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 4px auto;
+    animation: glow 0.5s infinite ease-in-out alternate;
+    background: #AA2E2E;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+.BtnDanger:hover {
+    background: #580c0c;
+    color: #AA2E2E;
+
+    box-shadow: 0px 0px 10px #AA2E2E, 0px 0px 15px #AA2E2E, 0px 0px 20px #AA2E2E, 0px 0px 25px #AA2E2E;
+    transform: translateY(-0.4rem);
+}
+
+.BtnPrimary {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 4px auto;
+    animation: glow 0.5s infinite ease-in-out alternate;
+    background: #0a2845;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+.BtnPrimary:hover {
+    background: #031324;
+
+    color: #104479;
+    box-shadow: 0px 0px 10px #104479, 0px 0px 15px #104479, 0px 0px 20px #104479, 0px 0px 25px #104479;
+    transform: translateY(-0.4rem);
+}
+
+.btnsize {
+    width: 15%;
+}
+
+.containersize {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.BtnSuccess {
+    display: block;
+    height: 100%;
+    margin: 4px auto;
+    animation: glow 0.5s infinite ease-in-out alternate;
+    background: #107930;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+.BtnSuccess:hover {
+    background: #09411a;
+    color: #107930;
+
+    box-shadow: 0px 0px 10px #107930, 0px 0px 15px #107930, 0px 0px 20px #107930, 0px 0px 25px #107930;
+    transform: translateY(-0.4rem);
+}
+
+/* @-webkit-keyframes glow {
+    to {
+        box-shadow: 0px 0px 2px rgb(139, 17, 17), 0px 0px 5px rgb(139, 17, 17), 0px 0px 7px rgb(139, 17, 17), 0px 0px px rgb(139, 17, 17);
+    }
+
+    from {
+        box-shadow: 0px 0px 5px rgb(139, 17, 17), 0px 0px 7px rgb(139, 17, 17), 0px 0px 10px rgb(139, 17, 17), 0px 0px 15px rgb(139, 17, 17);
+    }
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.forminput input {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    background: none;
+    border-bottom: 2px solid #041721;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+select.form-control:focus,
+[contenteditable].form-control:focus {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.forminput select {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    color: white;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #041721;
+}
+
+.forminput option {
+    background: #021017;
+    color: white;
+}
+
+.modelbg {
+    background: #01090e;
+    color: white;
+}
+
+.modelheader {
+    font-weight: bold;
+    background: #000507;
+    color: white;
+}
