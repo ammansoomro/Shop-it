@@ -30,6 +30,7 @@ To get started with this project, follow these steps:
 4. Start your web server.
 5. Open the index.php file in your web browser.
 
+
 ## Usage
 The index.php file is the main file for the project. It displays the list of products and provides options to add, update, and delete products.
 
@@ -38,3 +39,13 @@ The index.php file is the main file for the project. It displays the list of pro
 - To update a product, click on the "Update" button next to the product and fill out the form.
 
 - To delete a product, click on the "Delete" button next to the product.
+
+## Screenshots
+<img width="1440" alt="Screenshot 2023-05-11 at 2 04 07 AM" src="https://github.com/ammansoomro/Shop-it/assets/63865428/973a9ad2-c8bb-4aae-837a-9c28c12bac30">
+
+<img width="1440" alt="Screenshot 2023-05-11 at 2 04 15 AM" src="https://github.com/ammansoomro/Shop-it/assets/63865428/a42683d7-e378-47e8-b4b9-bd46e23b803b">
+
+
+<img width="1440" alt="Screenshot 2023-05-11 at 2 04 22 AM" src="https://github.com/ammansoomro/Shop-it/assets/63865428/e811e117-4e5d-4e37-9f7c-37ad33d0acf5">
+
+
